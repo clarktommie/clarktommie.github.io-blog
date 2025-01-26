@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything horizontally */
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ff6f61; /* Fun, bold color */
+    padding: 50px 20px;
+    color: white;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* About This Blog Section */
+#goal {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#goal h3 {
+    font-size: 2em;
+    color: #ff6f61;
+}
+
+#goal p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+/* Blog Posts Section */
+#blog-posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.blog-post {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-post:hover {
+    transform: translateY(-10px); /* Hover effect */
+}
+
+.blog-post a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from the post */
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+    color: #ff6f61;
+}
+
+.blog-post p {
+    font-size: 1.1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
