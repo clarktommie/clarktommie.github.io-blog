@@ -1,37 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Byte-Sized Learning</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Byte-Sized Learning</h1>
-        <h2>Breaking Down Data Science, One Byte at a Time</h2>
-    </header>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <section id="goal">
-        <h3>About This Blog</h3>
-        <p>Welcome to Byte-Sized Learning! I'm currently a data science student, and this blog is my journey through the fascinating world of data. My goal here is to break down complex data science concepts into manageable, easy-to-understand posts. Whether you're just starting out like me, or you're looking for some bite-sized pieces of knowledge, this blog is for you!</p>
-    </section>
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
-    <section id="blog-posts">
-        <div class="blog-post">
-             <a href="https://clarktommie.github.io/clarktommie.github.io-WecolmeToByteSizedLearning/">
-                <h3>Welcome to Byte-Sized Learning</h3>
-                <p>My very first post, introducing myself and the journey ahead!</p>
-            </a>
-        </div>
-        <div class="blog-post" id="post-2">
-            <h3>Blog Post Title 2</h3>
-            <p>Summary of Blog Post 2 (coming soon!)</p>
-        </div>
-    </section>
+header h1 {
+    font-size: 2.5em;
+}
 
-    <footer>
-        <p>&copy; 2025 Byte-Sized Learning | All Rights Reserved</p>
-    </footer>
-</body>
-</html>
+header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10px;
+}
+
+section h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-post h3 {
+    font-size: 1.6em;
+}
+
+.blog-post p {
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile-Friendly Adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 15px;
+        margin: 0 5px;
+    }
+
+    section h3 {
+        font-size: 1.5em;
+    }
+
+    .blog-post h3 {
+        font-size: 1.4em;
+    }
+
+    .blog-post p {
+        font-size: 1em;
+    }
+}
+
+/* Small Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header h2 {
+        font-size: 1.1em;
+    }
+
+    section {
+        padding: 10px;
+        margin: 0 5px;
+    }
+
+    section h3 {
+        font-size: 1.3em;
+    }
+
+    .blog-post h3 {
+        font-size: 1.3em;
+    }
+
+    .blog-post p {
+        font-size: 0.9em;
+    }
+}
